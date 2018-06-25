@@ -71,8 +71,12 @@
 
     ```
     raw_input("按下 enter 键退出，其他任意键显示...\n")
+    input("按下 enter 键退出，其他任意键显示...\n")
     ```
-    
+
+    *     input返回的是数值类型，如int,float
+    *     input会计算在字符串中的数字表达式，而raw_input不会
+    *     raw_inpout返回的是字符串类型，string类型
     print 默认输出是换行的，如果要实现不换行需要在变量末尾加上逗号 ,
 8. 执行脚本传入参数
 
